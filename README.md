@@ -27,4 +27,4 @@ Technologies & Tools
 
 Live Demo
 
-"View My Portfolio" https://claude.ai/code/artifact/bd153ad0-21b7-44bb-9873-1167e142930f
+"View My Portfolio" https://jayadhanushas.github.io/Personal-Portfolio-Website/

@@ -63,4 +63,152 @@ dt{font:700 16px "Plus Jakarta Sans",sans-serif}dd{margin:0;color:var(--muted)}
 .contact a.big{display:block;font:700 20px "Plus Jakarta Sans",sans-serif;margin:6px 0;overflow-wrap:anywhere}
 footer{padding:28px 0 48px;color:var(--muted);font-size:15px;border-top:1px solid var(--line);text-align:center}
 @media (max-width:640px){dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:10px}#home{padding:60px 0 56px}}
-@media (prefe
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+#theme{font:700 14px "Plus Jakarta Sans",sans-serif;background:var(--amber);color:#1b1500;border:0;border-radius:8px;padding:6px 12px;cursor:pointer;margin-left:6px}
+#theme:hover{filter:brightness(1.08)}
+.btn.sm{font-size:14px;padding:7px 14px;margin:6px 0}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.tabs button{font:700 15px "Plus Jakarta Sans",sans-serif;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.tabs button:hover{border-color:var(--blue);color:var(--blue)}
+.tabs button[aria-selected="true"]{background:var(--blue);border-color:var(--blue);color:#0b1226}
+.pills{display:flex;flex-wrap:wrap;gap:10px;min-height:96px}
+.pill{font:700 16px "Plus Jakarta Sans",sans-serif;padding:8px 16px;border-radius:10px;border:2px solid transparent;transition:transform .15s,border-color .15s}
+.pill:hover{transform:translateY(-3px)}
+.pill.lang{background:var(--blue-soft)}.pill.lang:hover{border-color:var(--blue)}
+.pill.web{background:var(--teal-soft)}.pill.web:hover{border-color:var(--teal)}
+.pill.core{background:var(--amber-soft)}.pill.core:hover{border-color:var(--amber)}
+.pill.tools{background:var(--blue-soft)}.pill.tools:hover{border-color:var(--blue)}
+.pill.os{background:var(--teal-soft)}.pill.os:hover{border-color:var(--teal)}
+.sub{font-size:22px;margin:36px 0 14px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.stat{display:block;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:12px;padding:16px 20px;transition:transform .15s,box-shadow .15s,border-color .15s}
+.stat:nth-child(3n+2){border-left-color:var(--teal)}.stat:nth-child(3n){border-left-color:var(--amber)}
+.stat:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(36,87,255,.18);border-color:var(--blue)}
+.stat .n{display:block;font:800 36px/1.1 "Plus Jakarta Sans",sans-serif;color:var(--blue)}
+.stat span{display:block;font-weight:600}
+.stat small{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+#det[hidden]{display:none}
+@media (prefers-reduced-motion:reduce){.pill,.stat{transition:none}}
+.cl{margin:0 0 14px}.cl a{font:700 19px "Plus Jakarta Sans",sans-serif;overflow-wrap:anywhere}.cl dt{align-self:center}
+</style>
+</head>
+<body>
+<nav><div class="bar">
+<a class="brand" href="#home">Jaya Dhanusha S</a>
+<div class="menu"><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header id="home"><div class="wrap">
+<h1>Jaya Dhanusha S</h1>
+<p class="role">Computer Science and Engineering Student</p>
+<p class="tag">Driven by curiosity, powered by code.</p>
+<p class="lead">Exploring technology, solving challenges and turning ideas into meaningful creations.</p>
+<p class="lead last">Aspiring software developer, I enjoy solving problems and building technology-driven projects.</p>
+<div class="btns">
+<a class="btn pri" href="#projects">View My Projects</a>
+</div>
+<div class="social">
+<a href="https://github.com/jayadhanushas" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/jaya-dhanusha-s" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="https://leetcode.com/u/Jaya_Dhnausha_S" target="_blank" rel="noopener noreferrer">LeetCode</a>
+</div>
+</div></header>
+
+<main class="wrap">
+<section id="about">
+<h2>About</h2>
+<p class="intro">I’m a B.E. Computer Science and Engineering student at Sri Eshwar College of Engineering (2026–2030). I practise problem solving on coding platforms and build hardware-and-software projects.</p>
+<div class="grid">
+<div class="card b"><h3>Education</h3>
+<div class="row"><span><b>B.E. (CSE)</b><br>Sri Eshwar College of Engineering</span><span>2026–2030</span></div>
+<div class="row"><span><b>HSC · 95.2%</b><br>Orison Academy (CBSE)</span><span>2024–2026</span></div>
+<div class="row"><span><b>SSLC · 94.8%</b><br>Vivek Vidya Mandir (CBSE)</span><span>2023–2024</span></div></div>
+<div class="card t"><h3>Achievements</h3>
+<ul><li><mark>SELFE Hackathon 2026</mark>: secured top 30 position</li>
+<li><mark>Thundercode – The Array Battle</mark>: contest winner, college-level programming competition</li>
+<li><mark>School second rank</mark> overall in 12th grade</li></ul></div>
+<div class="card a"><h3>Certifications</h3>
+<div class="row"><span><b>ADCA</b><br>Advanced Diploma in Computer Application, Champion One CSC</span><span>Aug 2026</span></div>
+<div class="row"><span><b>DMO</b><br>Diploma in MS Office, Champion One CSC</span><span>Aug 2026</span></div></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card t" style="margin-top:24px">
+<h3>AquaSense – Smart Irrigation System</h3>
+<p class="meta">November 2026 · <a href="https://github.com/jayadhanushas/AquaSense-Smart-Irrigation" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+<div class="tags"><span>ESP32</span><span>Embedded C++</span><span>Wokwi</span></div>
+<button class="btn sec sm" id="more" type="button" aria-expanded="true">Hide details</button>
+<ul id="det">
+<li>Developed a smart irrigation system using ESP32 for automated soil moisture monitoring.</li>
+<li>Implemented dual-zone soil moisture sensing to identify and select the drier zone.</li>
+<li>Integrated automatic water pump control with flow and pressure verification.</li>
+<li>Designed an OLED display to show system status and alerts.</li>
+</ul></div>
+<div class="card b" style="margin-top:20px">
+<h3>Personal Portfolio Website</h3>
+<p class="meta"><a href="https://github.com/jayadhanushas/Personal-Portfolio-Website" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Claude AI</span></div>
+<ul>
+<li>Developed a personal portfolio website to showcase technical skills, projects, achievements and professional profile.</li>
+<li>Designed a responsive interface with navigation, social profile links and resume download functionality.</li>
+</ul></div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card b" style="margin:24px 0">
+<div class="tabs" role="tablist" aria-label="Skill groups">
+<button role="tab" data-g="all" aria-selected="true">All</button><button role="tab" data-g="lang" aria-selected="false">Languages</button><button role="tab" data-g="web" aria-selected="false">Web</button><button role="tab" data-g="core" aria-selected="false">Core concepts</button><button role="tab" data-g="tools" aria-selected="false">Tools</button><button role="tab" data-g="os" aria-selected="false">Operating systems</button>
+</div>
+<div class="pills" id="pills" aria-live="polite"></div></div>
+<h3 class="sub">Coding profiles</h3>
+<div class="stats">
+<a class="stat" href="https://leetcode.com/u/Jaya_Dhnausha_S" target="_blank" rel="noopener noreferrer"><b class="n" data-n="125" data-s="+">125+</b><span>LeetCode problems solved</span><small>Rating 1,480 · max streak 37 · global rank 1,466,221</small></a>
+<a class="stat" href="https://www.hackerrank.com/profile/itzjayadhanushas" target="_blank" rel="noopener noreferrer"><b class="n" data-n="4" data-s=" stars">4 stars</b><span>HackerRank in C++</span></a>
+<a class="stat" href="https://www.skillrack.com/profile/587115/3f993031f50f414e18d56fb56afdeec7c0063b0f" target="_blank" rel="noopener noreferrer"><b class="n" data-n="80" data-s="+">80+</b><span>SkillRack problems solved</span><small>Rank 160345</small></a>
+<a class="stat" href="https://www.codechef.com/users/jayadhanushas" target="_blank" rel="noopener noreferrer"><b class="n" data-n="50" data-s="+">50+</b><span>CodeChef problems solved</span><small>Bronze badge</small></a>
+<a class="stat" href="https://www.geeksforgeeks.org/profile/jayadhanushas" target="_blank" rel="noopener noreferrer"><b class="n" data-n="4" data-s="">4</b><span>GeeksforGeeks problems solved</span><small>Institute rank 1680</small></a>
+<a class="stat" href="https://www.freecodecamp.org/Jaya-Dhanusha-S" target="_blank" rel="noopener noreferrer"><b class="n" data-n="63" data-s="">63</b><span>freeCodeCamp points</span></a>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<p class="intro">Open to opportunities to learn and build. Email is the quickest way to reach me.</p>
+<dl class="cl">
+<dt>Email</dt><dd><a href="mailto:jayadhanusha.s2026cse@sece.ac.in">jayadhanusha.s2026cse@sece.ac.in</a></dd>
+<dt>GitHub</dt><dd><a href="https://github.com/jayadhanushas" target="_blank" rel="noopener noreferrer">jayadhanushas</a></dd>
+<dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/jaya-dhanusha-s" target="_blank" rel="noopener noreferrer">jaya-dhanusha-s</a></dd>
+</dl>
+<button class="btn sec sm" id="copy" type="button">Copy email address</button>
+</section>
+</main>
+<footer>© Jaya Dhanusha S</footer>
+
+<script>
+(function(){
+var links=[].slice.call(document.querySelectorAll('.menu a'));
+var secs=['home','about','projects','skills','contact'].map(function(i){return document.getElementById(i)});
+if('IntersectionObserver' in window){
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-40% 0px -55% 0px'});
+ secs.forEach(function(s){io.observe(s)});
+}
+
+var G={lang:['C','C++','Python','Java'],web:['HTML5','CSS3','JavaScript'],core:['Data Structures and Algorithms (Beginner)','Object-Oriented Programming (OOP)','Problem Solving'],tools:['Git','GitHub','VS Code','Figma'],os:['Linux','Windows']};
+var pills=document.getElementById('pills'),tabs=[].slice.call(document.querySelectorAll('.tabs button'));
+function show(g){pills.textContent='';(g==='all'?Object.keys(G):[g]).forEach(function(k){G[k].forEach(function(x){var s=document.createElement('span');s.className='pill '+k;s.textContent=x;pills.appendChild(s)})});tabs.forEach(function(b){b.setAttribute('aria-selected',String(b.dataset.g===g))})}
+tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.g)})});show('all');
+var more=document.getElementById('more'),det=document.getElementById('det');
+more.addEventListener('click',function(){var h=det.hidden=!det.hidden;more.textContent=h?'Show details':'Hide details';more.setAttribute('aria-expanded',String(!h))});
+var cp=document.getElementById('copy');
+cp.addEventListener('click',function(){var m='jayadhanusha.s2026cse@sece.ac.in';function ok(){cp.textContent='Copied';setTimeout(function(){cp.textContent='Copy email address'},1800)}try{navigator.clipboard.writeText(m).then(ok,function(){cp.textContent=m})}catch(e){cp.textContent=m}});
+var ns=[].slice.call(document.querySelectorAll('.n'));
+function count(el){var n=+el.dataset.n,s=el.dataset.s,t0=null;function f(ts){t0=t0||ts;var p=Math.min((ts-t0)/900,1);el.textContent=Math.round(n*p)+(p<1?'':s);if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches){var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){count(e.target);io2.unobserve(e.target)}})},{threshold:.6});ns.forEach(function(n){io2.observe(n)})}
+})();
+</script>
+</body>
+</html>
